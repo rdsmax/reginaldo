@@ -16,8 +16,8 @@ html * {
 }
 
 #perfil {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     /* AJUSTAR IMAGEM SEM PERDER PROPORÇÃO */
     object-fit: cover;
     /* DEIXA A IMAGEM ARREDONDADA */
@@ -25,12 +25,43 @@ html * {
     margin: 20px;
 }
 
+
 #principal {
     height: 600px;
     background-color: #5c5c5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.caixa {
+    background-color: #1f1f1f;
+    height: 400px;
+    width: 400;
+    margin: 20px;
+    /* ALINHAMENTO DA CAIXA */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    color: white;
+    font-size: 30px;
+}
+
 
 #rodape {
     height: 200px;
     background-color: #505050;
+    /* ALINHAMENTO DOS ICONES DAS REDES SOCIAIS */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones {
+    height: 100px;
+    margin: 20px;
+
 }
