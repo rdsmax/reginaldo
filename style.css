@@ -1,6 +1,7 @@
 /* RESET CSS */
 html * {
     margin: 0px;
+    text-decoration: none;
 }
 
 
@@ -25,6 +26,12 @@ html * {
     margin: 20px;
 }
 
+main {
+    text-align: center;
+    background-color: #5c5c5c;
+    color: white;
+    padding: 20px;
+}
 
 #principal {
     height: 600px;
